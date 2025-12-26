@@ -1,0 +1,2 @@
+# yeni-projem
+Frontend Öğreniyorum.
