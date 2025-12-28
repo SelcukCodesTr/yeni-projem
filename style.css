@@ -87,7 +87,8 @@ body {
 }
 
 .giris--btn,
-.kaydol--btn {
+.kaydol--btn,
+.change--bar--btn {
   font-size: 1.05rem;
   border: 1px solid #333;
   padding: 8px 12px;
@@ -103,7 +104,21 @@ body {
   background-color: #333;
   color: #fff;
 }
-
+.change--bar--btn {
+  border: 4px;
+  border-style: groove;
+  background: linear-gradient(45deg, #4a5034, #333, #d4aeae);
+  border-color: red blue green yellow;
+  border-radius: 20px 3px 12px;
+}
+.change--bar--btn:hover {
+  transform: scale(1.1);
+}
+.change--bar--btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
 .giris--btn:hover,
 .kaydol--btn:hover {
   transform: scale(1.05);
